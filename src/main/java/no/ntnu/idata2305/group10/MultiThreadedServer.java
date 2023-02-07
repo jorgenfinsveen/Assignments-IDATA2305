@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * Represents a multi-threaded server.
+ */
 public class MultiThreadedServer implements Runnable {
 
     protected int serverPort = 8080;

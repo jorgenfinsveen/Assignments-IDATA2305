@@ -15,6 +15,7 @@ public class AsyncSearchSimulator implements Runnable {
   
     public void run() {
 
+        /* Uses the responsegenerator to create a response. */
         try {
             long time1 = System.currentTimeMillis();
             Thread.sleep(10 * (long) 1000);
